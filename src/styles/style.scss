@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+/*green - #008000
+red - #B22222
+blue - #0000CD*/
+
+$grey: #E5E5E5;
+$violet: #4b0082;
+$orange: #D2691E;
+$dark: #323232;
+$pu-dark: #292929;
+$u-dark: #1e1e1e;
+$l-grey: #d7d7d7;
+::-webkit-scrollbar {
+	background: $dark;
+	width: 11px;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: $l-grey;
+}
+body *::-moz-selection {
+  background: $pu-dark;
+  color: rgb(19,188,188);
+}
+
+body *::-webkit-selection {
+  background: $pu-dark;
+  color: rgb(19,188,188);
+}
+
+body *::selection {
+  background: $pu-dark;
+  color: rgb(19,188,188);
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto Mono';
+	color: #fff;
+}
+a{
+	color: inherit;
+	&:hover{
+		color: #000;
+	}
+}
+html{
+	overflow-x: hidden;
+}
+.col-lg-12{
+	flex: none !important;
+}
+.trans{
+	transition: .4s all linear;
+}
+.m-0-auto{
+	margin: 0 auto;
+}
+.bg-grey{
+	background: $u-dark;
+	color: #fff;
+}
+.disactive{
+	display: none;
+}
+.active{
+	display: block;
+}
+.site{
+	&-head{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 50px;
+		&-logo{
+			width: 120px;
+			margin-right: 50px;
+		}
+	}
+	&-inputDIV{
+		position: absolute;
+		left: 2%;
+		top: 2%;
+		display: flex;
+		flex-direction: column;
+		&-title{
+			font-size: 15pt;
+			color: #fff;
+			text-align: center;
+		}
+		&-inp{
+			margin-top: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #fff;
+			font-size: 15pt;
+			background: $dark;
+			color: #fff;
+		}
+		&-but{
+			padding: 10px;
+			font-size: 13pt;
+			background: $dark;
+			color: #fff;
+			border-radius: 10px;
+			border: 2px solid #fff;
+			margin-top: 10px;
+			transition: .25s all linear;
+			&:hover{
+				background: #000;
+				transition: .25s all linear;
+			}
+		}
+	}
+	&-title{
+		font-size: 30pt;
+		font-family: 'Roboto Mono';
+		font-weight: 600;
+		text-align: center;
+		padding: 20px 0;
+		color: #fff;
+	}
+	&-personadzi{
+		padding-bottom: 50px;
+
+		&-item{
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 90% !important;
+			border-radius: 10px;
+			display: flex;
+			justify-content: flex-start;
+			margin-top: 30px;
+			border: 2px solid #fff;
+			display: flex;
+			flex-direction: column;
+			color: #fff;
+			&-title{
+				color: #fff;
+				display: flex;
+				justify-content: space-between;
+				font-size: 14pt;
+				font-weight: 600;
+			}
+			&-button{
+				position: absolute;
+				right: 0;
+				top: 0;
+				background: $dark;
+				height: 100%;
+				border: none;
+				padding: 0 10px;
+				z-index: 999999999;
+				border-top-right-radius: 10px;
+				border-bottom-right-radius: 10px;
+			}
+			&-subtitle{
+				display: flex;
+				flex-direction: column;
+				transition: .2s all linear;
+				&-active{
+					display: flex;
+					flex-direction: column;
+					transition: .2s all linear;
+				}
+				&-zadND{
+					padding: 15px 30px;
+				}
+				&-zadN{
+					padding-bottom: 5px;
+				}
+			}
+		}
+		&-vstavka{
+			padding: 5px;
+			margin-left: 20px;
+			color: inherit;
+			font-family: 'Roboto Mono';
+			font-size: 12.5pt;
+		}
+		&-friendsGG{
+			background: $violet;
+			color: #fff;
+		}
+		&-dangeon{
+			background: $orange;
+			color: #fff;
+		}
+		&-moss{
+			background: #0000CD;
+			color: #fff;
+		}
+		&-driadalis{
+			background: #8B4513;
+			color: #fff;
+		}
+		&-zadaniya{
+			background: $dark !important;
+			color: #fff;
+		}
+	}
+}
+#mesto{
+	&::-webkit-input-placeholder {font-family: 'Roboto Mono';font-style: normal;font-weight: normal;font-size: 12pt; }
+	&:-moz-placeholder           {font-family: 'Roboto Mono';font-style: normal;font-weight: normal;font-size: 12pt; }
+	&::-moz-placeholder          {font-family: 'Roboto Mono';font-style: normal;font-weight: normal;font-size: 12pt; }
+	&:-ms-input-placeholder      {font-family: 'Roboto Mono';font-style: normal;font-weight: normal;font-size: 12pt; }  
+}
+.group{
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 90% !important;
+	border-radius: 10px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 30px;
+	border: 2px solid #fff;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	background: #696969;
+}
+
+.nekron{
+	border-color: red !important;
+}
+@media screen and (max-width: 768px){
+	
+	.site{
+		&-head{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&-logo{
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 414px){
+	.disactive{
+		display: block;
+	}
+
+	
+	.site{
+		&-head{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&-logo{
+				margin-right: 0;
+			}
+		}
+		&-personadzi{
+			&-item{
+				&-title{
+					width: 80%;
+				}
+				&-subtitle{
+					display: none;
+				}
+			}
+		}
+	}
+	.active{
+		display: none;
+		&-item{
+			display: block;
+		}
+	}
+}

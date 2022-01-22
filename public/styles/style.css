@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+/*green - #008000
+red - #B22222
+blue - #0000CD*/
+::-webkit-scrollbar {
+  background: #323232;
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #d7d7d7;
+}
+
+body *::-moz-selection {
+  background: #292929;
+  color: #13bcbc;
+}
+
+body *::-webkit-selection {
+  background: #292929;
+  color: #13bcbc;
+}
+
+body *::selection {
+  background: #292929;
+  color: #13bcbc;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono";
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #000;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.col-lg-12 {
+  flex: none !important;
+}
+
+.trans {
+  transition: 0.4s all linear;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.bg-grey {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.disactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.site-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.site-head-logo {
+  width: 120px;
+  margin-right: 50px;
+}
+.site-inputDIV {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.site-inputDIV-title {
+  font-size: 15pt;
+  color: #fff;
+  text-align: center;
+}
+.site-inputDIV-inp {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 15pt;
+  background: #323232;
+  color: #fff;
+}
+.site-inputDIV-but {
+  padding: 10px;
+  font-size: 13pt;
+  background: #323232;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin-top: 10px;
+  transition: 0.25s all linear;
+}
+.site-inputDIV-but:hover {
+  background: #000;
+  transition: 0.25s all linear;
+}
+.site-title {
+  font-size: 30pt;
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+.site-personadzi {
+  padding-bottom: 50px;
+}
+.site-personadzi-item {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 90% !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.site-personadzi-item-title {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14pt;
+  font-weight: 600;
+}
+.site-personadzi-item-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #323232;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  z-index: 999999999;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.site-personadzi-item-subtitle {
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s all linear;
+}
+.site-personadzi-item-subtitle-active {
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s all linear;
+}
+.site-personadzi-item-subtitle-zadND {
+  padding: 15px 30px;
+}
+.site-personadzi-item-subtitle-zadN {
+  padding-bottom: 5px;
+}
+.site-personadzi-vstavka {
+  padding: 5px;
+  margin-left: 20px;
+  color: inherit;
+  font-family: "Roboto Mono";
+  font-size: 12.5pt;
+}
+.site-personadzi-friendsGG {
+  background: #4b0082;
+  color: #fff;
+}
+.site-personadzi-dangeon {
+  background: #D2691E;
+  color: #fff;
+}
+.site-personadzi-moss {
+  background: #0000CD;
+  color: #fff;
+}
+.site-personadzi-driadalis {
+  background: #8B4513;
+  color: #fff;
+}
+.site-personadzi-zadaniya {
+  background: #323232 !important;
+  color: #fff;
+}
+
+#mesto::-webkit-input-placeholder {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12pt;
+}
+#mesto:-moz-placeholder {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12pt;
+}
+#mesto::-moz-placeholder {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12pt;
+}
+#mesto:-ms-input-placeholder {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+.group {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 90% !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: #696969;
+}
+
+.nekron {
+  border-color: red !important;
+}
+
+@media screen and (max-width: 768px) {
+  .site-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-head-logo {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .disactive {
+    display: block;
+  }
+
+  .site-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-head-logo {
+    margin-right: 0;
+  }
+  .site-personadzi-item-title {
+    width: 80%;
+  }
+  .site-personadzi-item-subtitle {
+    display: none;
+  }
+
+  .active {
+    display: none;
+  }
+  .active-item {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
