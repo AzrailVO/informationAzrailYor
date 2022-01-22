@@ -1,0 +1,154 @@
+{
+  "uuid": "cc5a9fe9-0d2e-4d4c-bddf-28430e93c7cd",
+  "lastMigration": 19,
+  "name": "Rr",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 8888,
+  "routes": [
+    {
+      "uuid": "138379f7-ee81-42cd-bc2c-d5837b6b4fe9",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "perses",
+      "responses": [
+        {
+          "uuid": "3780f35c-9832-4cb9-9853-96d2679d7e71",
+          "body": "[\r\n\t{\r\n\t\t\"name\": \"Азраил Йор (Виктор Регентов)\",\r\n\t\t\"rang\": \"главный герой, владелец княжества Некрон\",\r\n\t\t\"group\": [\"гг\", \"некрон\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Дмитрий Андреевич\",\r\n\t\t\"rang\": \"бог Пустоты\",\r\n\t\t\"group\": \"враги гг\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Иркандук\",\r\n\t\t\"rang\": \"простой маг-огневик, нашедший неизвестный артефакт, который вытягивал магию из цели. Поднял восстание и смог истребить многих носителей Пустоты\",\r\n\t\t\"group\": \"империя мосс\",\r\n\t\t\"status\": \"мёртв\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Йозеф Фауст, потомок Великого Пламени, освободитель Делос и Кенр\",\r\n\t\t\"rang\": \"император империи Мосс\",\r\n\t\t\"group\": [\"империя мосс\", \"враги гг\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Риф'аaк\",\r\n\t\t\"rang\": \"ИИ разбившегося корабля эликсни\",\r\n\t\t\"group\": [\"друзья гг\", \"эликсни\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Рахн\",\r\n\t\t\"rang\": \"капитан разбившегося корабля эликсни\",\r\n\t\t\"group\": [\"друзья гг\", \"эликсни\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Зур\",\r\n\t\t\"rang\": \"создание Пустоты, личный помощник Азраила. Командир особого отряда княжества Некрон.\",\r\n\t\t\"group\": [\"друзья гг\", \"некрон\"],\r\n\t\t\"status\": \"нежить (жив)\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Кхарт О’Дейл\",\r\n\t\t\"rang\": \"маг приксов\",\r\n\t\t\"group\": \"союз приксов\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"Союз Приксов\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Дорек\",\r\n\t\t\"rang\": \"главный охотник на ГГ\",\r\n\t\t\"group\": [\"империя мосс\", \"враги гг\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Донтариель\",\r\n\t\t\"rang\": \"эльф-лучник в начале\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"дриадалис\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"королевство эльфов Дриадалис\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Иван\",\r\n\t\t\"rang\": \"гном, воин мифриловых рудников\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"кенр\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"царство гномов Кенр\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Двар\",\r\n\t\t\"rang\": \"человек, маг Огня третьего ранга\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"империя мосс\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Авкир\",\r\n\t\t\"rang\": \"человек, паладин Света\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"империя мосс\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Аривия\",\r\n\t\t\"rang\": \"человек, лучница. Нанята Азраилом, как разведчик.\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"империя мосс\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"империя Мосс\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Ррохт\",\r\n\t\t\"rang\": \"орк, арбалетчик\",\r\n\t\t\"group\": [\"отряд в подземелье в начале\", \"дэлос\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"республика орков Дэлос\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Басель\",\r\n\t\t\"rang\": \"эльф, генерал армии эльфов\",\r\n\t\t\"group\": \"дриадалис\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"королевство эльфов Дриадалис\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Цезарь\",\r\n\t\t\"rang\": \"правитель Некрона\",\r\n\t\t\"group\": [\"друзья гг\", \"некрон\"],\r\n\t\t\"status\": \"нежить (жив)\",\r\n\t\t\"mesto\": \"армия Азраила\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Практ де Мон\",\r\n\t\t\"rang\": \"заведующий по выдаче паспортов\",\r\n\t\t\"group\": \"союз приксов\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"Союз Приксов\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Святополк Водка\",\r\n\t\t\"rang\": \"встречает новых богов и рассказывает им о Союзе Высших\",\r\n\t\t\"group\": \"союз высших\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"Союз Высших\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Никэрэл\",\r\n\t\t\"rang\": \"командир элитного отряда королевства Дриадалис\",\r\n\t\t\"group\": \"дриадалис\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"королевство эльфов Дриадалис\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Зентар Трин\",\r\n\t\t\"rang\": \"бог обмана (выдаёт себя за пустотного), правитель Ритры, государства хаоситов\",\r\n\t\t\"group\": [\"ритра\", \"враги гг\"],\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Риана из Роттемдама\",\r\n\t\t\"rang\": \"начинающий маг-псионик. В рабстве у ГГ\",\r\n\t\t\"group\": [\"империя мосс\", \"друзья гг\"],\r\n\t\t\"status\": \"жива\",\r\n\t\t\"mesto\": \"мир\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Игорь Валерьевич\",\r\n\t\t\"rang\": \"сущность из Шипа. Один из разработчиков Системы\",\r\n\t\t\"group\": \"друзья гг\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Лентар Нек Шурен\",\r\n\t\t\"rang\": \"прокурор времён темной эпохи Союза Высших\",\r\n\t\t\"group\": \"союз высших\",\r\n\t\t\"status\": \"жив\",\r\n\t\t\"mesto\": \"Союз Высших\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"де Летары\",\r\n\t\t\"rang\": \"семья, владеющая Манипулятором материей (в данный момент куб у Азраила)\",\r\n\t\t\"group\": \"союз высших\",\r\n\t\t\"status\": \"жив последний представитель\",\r\n\t\t\"mesto\": \"Союз Высших\"\r\n\t},\r\n\t{\r\n\t\t\"name\": \"Дориана\",\r\n\t\t\"rang\": \"принцесса королевства Дриадалис\",\r\n\t\t\"group\": \"дриадалис\",\r\n\t\t\"status\": \"жива\",\r\n\t\t\"mesto\": \"королевство эльфов Дриадалис\"\r\n\t}\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "9467b221-31b5-46c5-934e-16c282368537",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "srGroup",
+      "responses": [
+        {
+          "uuid": "a75bbc47-38f1-4def-bb5a-405925b82fd3",
+          "body": "[\n  {\n    \"group\": \"гг\",\n    \"id\": \"GG\"\n  },\n  {\n    \"group\": \"друзья гг\",\n    \"id\": \"frGG\"\n  },\n  {\n    \"group\": \"отряд в подземелье в начале\",\n    \"id\": \"dang\"\n  },\n  {\n    \"group\": \"дриадалис\",\n    \"id\": \"driadalis\"\n  },\n  {\n    \"group\": \"империя мосс\",\n    \"id\": \"moss\"\n  },\n  {\n    \"group\": \"дэлос\",\n    \"id\": \"delos\"\n  },\n  {\n    \"group\": \"кенр\",\n    \"id\": \"kenr\"\n  },\n  {\n    \"group\": \"союз высших\",\n    \"id\": \"sv\"\n  },\n  {\n    \"group\": \"союз приксов\",\n    \"id\": \"sp\"\n  },\n  {\n    \"group\": \"эликсни\",\n    \"id\": \"eliksni\"\n  },\n  {\n    \"group\": \"ритра\",\n    \"id\": \"rytra\"\n  },\n  {\n    \"group\": \"некрон\",\n    \"id\": \"nekron\"\n  },\n  {\n    \"group\": \"враги гг\",\n    \"id\": \"vGG\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "6a364027-2e46-4ecc-92ea-2e3ed82b46f1",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "butPr",
+      "responses": [
+        {
+          "uuid": "fda671bf-9d75-47b5-bfde-97634866e079",
+          "body": "[\r\n\t{\r\n\t\t\"pr\": \"butGG\",\r\n\t\t\"id\": \"GG\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butfrGG\",\r\n\t\t\"id\": \"frGG\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butsp\",\r\n\t\t\"id\": \"sp\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butvGG\",\r\n\t\t\"id\": \"vGG\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butmoss\",\r\n\t\t\"id\": \"moss\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butdriadalis\",\r\n\t\t\"id\": \"driadalis\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butdelos\",\r\n\t\t\"id\": \"delos\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butkenr\",\r\n\t\t\"id\": \"kenr\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butsv\",\r\n\t\t\"id\": \"sv\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"buteliksni\",\r\n\t\t\"id\": \"eliksni\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butdang\",\r\n\t\t\"id\": \"dang\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butrytra\",\r\n\t\t\"id\": \"rytra\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butnekron\",\r\n\t\t\"id\": \"nekron\"\r\n\t},\r\n\t{\r\n\t\t\"pr\": \"butost\",\r\n\t\t\"id\": \"ost\"\r\n\t}\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "8d012cc2-cd2c-4946-9e7a-0a8bd2de532d",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "zadaniya",
+      "responses": [
+        {
+          "uuid": "19265883-4e5e-4904-9125-09b767fcd0a2",
+          "body": "[\n  {\n    \"id\": 1,\n    \"zadNz\": [\"Найти капитана Рахн\", \"Получить навык Техномагия\"],\n    \"status\": [\"times\", \"times\"]\n  },\n  {\n    \"id\": 2,\n    \"zadNz\": [\"Выбраться из божественного измерения\", \"Выполнить задание Риф’аака\", \"Забраться на гору Тогори\", \"Найти проход в корнях уродливого дуба на вершине горы Тогори\", \"Найти портал\"],\n    \"status\": [\"check\", \"times\", \"times\", \"times\", \"times\"]\n  },\n  {\n    \"id\": 3,\n    \"zadNz\": [\"Ликвидиировать Дмитрия Андреевича\"],\n    \"status\": [\"times\"]\n  },\n  {\n    \"id\": 4,\n    \"zadNz\": [\"Ликвидиировать Зентара Трина\"],\n    \"status\": [\"times\"]\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyRemovePrefix": false,
+  "hostname": "0.0.0.0",
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  }
+}
